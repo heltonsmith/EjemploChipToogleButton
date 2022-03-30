@@ -61,4 +61,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chipGrupo" />
 
+    <EditText
+        android:id="@+id/txtChip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Agregue Chip"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toggleButton" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Agregar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/txtChip"
+        app:layout_constraintStart_toEndOf="@+id/txtChip" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -23,5 +23,13 @@ class MainActivity : AppCompatActivity() {
         bi.toggleButton.setOnClickListener {
             Toast.makeText(this, "Selección: ${bi.toggleButton.text}", Toast.LENGTH_SHORT).show()
         }
+
+        bi.btnAgregar.setOnClickListener {
+            val chip = layoutInflater.inflate(R.layout.chip_recurso, bi.chipGrupo, false) as Chip
+            //val chip = Chip(this)
+            var textoChip = bi.txtChip.text
+            chip.text = textoChip
+            bi.chipGrupo.addView(chip)
+        }
     }
 }
