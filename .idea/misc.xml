@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/helto/AndroidStudioProjects/EjemploChipToogleButton/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Users/helto/AndroidStudioProjects/EjemploChipToogleButton/app/src/main/res/drawable/ic_code.xml" value="0.1365" />
+        <entry key="..\:/Users/helto/AndroidStudioProjects/EjemploChipToogleButton/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/helto/AndroidStudioProjects/EjemploChipToogleButton/app/src/main/res/layout/chip_recurso.xml" value="0.1" />
+        <entry key="..\:/Users/helto/AndroidStudioProjects/EjemploChipToogleButton/app/src/main/res/layout/recycler_layout.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>

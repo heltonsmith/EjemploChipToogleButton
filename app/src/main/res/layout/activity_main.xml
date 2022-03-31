@@ -14,6 +14,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:singleSelection="true">
 
+        <!--
         <com.google.android.material.chip.Chip
             android:id="@+id/chipJava"
             style="@style/myChipTema"
@@ -48,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="GO" />
-
+        -->
     </com.google.android.material.chip.ChipGroup>
 
     <ToggleButton
@@ -81,5 +82,14 @@
         android:text="Agregar"
         app:layout_constraintBaseline_toBaselineOf="@+id/txtChip"
         app:layout_constraintStart_toEndOf="@+id/txtChip" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_width="397dp"
+        android:layout_height="251dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
